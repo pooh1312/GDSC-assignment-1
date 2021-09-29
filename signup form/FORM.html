@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up Form</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="form-body">
+        <form id="register" method="post" target="#" onsubmit="return validate()">
+          <div class="form-inner">
+        <h1>Sign up Form</h1>
+        
+        <span>Name</span>
+        <br>
+      	<input type="text" name="name"><br>
+        <span>Email</span><br>
+      	<input type="text" name="email"><br>
+        <span>Retype email </span><br>
+      	<input type="text" name="retype_email"><br>
+        <span>Create password</span><br>
+      	<input type="password" name="password"><br>
+        <span>Retype password</span><br>
+	      <input type="password" name="retype_password"><br>
+      
+        
+        <label>
+          <input type="checkbox" name="terms">By signing up to {this} you agree to your
+           <a href="#service">Terms of Service</a> and <a href="#policy">Privacy Policy</a>
+        </label>
+            
+      	<div class="button">
+          <input type="submit" class="button" value="Set Up Account">
+        </div>
+      </div>
+	</form>
+</div>
+</body>
+</html>
